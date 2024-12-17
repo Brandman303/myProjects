@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Welcome to Beer Buddy!\nEnter the name of a beer you enjoy:");
+		System.out.print(input.next());
+	}
+
+}

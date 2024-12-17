@@ -1,0 +1,9 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Beer testBeer = new Beer("Coors Lite", "Domestic", 4, 2, 32, 3.0);
+		System.out.println(testBeer.toString());
+	}
+
+}

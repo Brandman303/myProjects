@@ -1,0 +1,91 @@
+
+public class Beer {
+	private String name;
+	private String style;
+	private String subStyle; //maybe implement this into the constructor and Beer in general later
+	private String origin; // maybe implement this to be a sorting option later
+	private int color;
+	private int ibu;
+	private float abv;
+	private float price;
+	private int score;
+	
+	// Arg Constructor
+	public Beer (String name, String style, int color, int ibu, float abv, float price) {
+		this.name = name;
+		this.style = style;
+		this.color = color;
+		this.ibu = ibu;
+		this.abv = abv;
+		this.price = price;
+	}
+	
+
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getStyle() {
+		return style;
+	}
+
+	public void setStyle(String style) {
+		this.style = style;
+	}
+
+	public String getSubStyle() {
+		return subStyle;
+	}
+
+	public void setSubStyle(String subStyle) {
+		this.subStyle = subStyle;
+	}
+
+	public String getOrigin() {
+		return origin;
+	}
+
+	public void setOrigin(String origin) {
+		this.origin = origin;
+	}
+
+	public int getColor() {
+		return color;
+	}
+
+	public void setColor(int color) {
+		this.color = color;
+	}
+
+	public int getIbu() {
+		return ibu;
+	}
+
+	public void setIbu(int ibu) {
+		this.ibu = ibu;
+	}
+
+	public float getAbv() {
+		return abv;
+	}
+
+	public void setAbv(float abv) {
+		this.abv = abv;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+	
+	
+	
+}

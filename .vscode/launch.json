@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BTree",
+            "request": "launch",
+            "mainClass": "cs250.hw4.BTree",
+            "projectName": "cs-projects_663c65e0"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "cs250.hw4.BinaryTree",
+            "projectName": "cs-projects_663c65e0"
+        },
+        {
+            "type": "java",
+            "name": "GraphHelperTest",
+            "request": "launch",
+            "mainClass": "GraphHelperTest",
+            "projectName": "cs-projects_663c65e0"
+        },
+        {
+            "type": "java",
+            "name": "BTree",
+            "request": "launch",
+            "mainClass": "cs250.hw4.BTree",
+            "projectName": "cs-projects_e5c34a61",
+            "args": "C:\\Users\\Brandon\\OneDrive\\Desktop\\cs-projects\\data.txt"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "cs250.hw4.BinaryTree",
+            "projectName": "cs-projects_e5c34a61",
+            "args": "C:\\Users\\Brandon\\OneDrive\\Desktop\\cs-projects\\data.txt"
+        }
+    ]
+}
